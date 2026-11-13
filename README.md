@@ -17,4 +17,6 @@ python3 -m http.server 8000 --directory apps/landing --bind 127.0.0.1
 
 A raiz de publicação da página é `apps/landing/`. CSS, JavaScript e imagens usam caminhos relativos.
 
-O conteúdo inicial destaca a assistência técnica autorizada de ventiladores de teto. As marcas atendidas, contatos diretos e horários ainda precisam ser informados.
+A Hero apresenta projetos, instalações e manutenção elétrica na Baixada Santista. As demais seções ainda estão em planejamento. O CTA do WhatsApp permanece desativado até a definição do número de contato.
+
+A fonte Manrope é servida localmente em `apps/landing/assets/fonts/`, com sua licença OFL.
