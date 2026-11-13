@@ -318,3 +318,5 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
 /* Marcas como continuação direta do serviço de ventiladores. */
 .service-card-fans .authorized-brands { margin-top: 1rem; padding-top: 0; border-top: 0; }
 .service-card-fans .brands-heading { margin-bottom: .65rem; }
+/* Recarga elétrica com destaque próprio, preservando a lista de serviços. */
+.service-card-ev .service-icon { color: var(--accent); }
