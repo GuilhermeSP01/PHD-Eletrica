@@ -302,3 +302,7 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
   .map-gps-button { height: 38px; right: 6px; bottom: 26px; padding-inline: .65rem; gap: .35rem; font-size: .64rem; }
   .map-gps-button svg { width: 13px; height: 13px; }
 }
+
+.contact-phone a, .contact-secondary-phone a, .contact-email a { text-decoration: none; }
+.contact-phone a:hover, .contact-secondary-phone a:hover, .contact-email a:hover { text-decoration: underline; }
+.contact-detail .contact-secondary-phone { margin-top: .4rem; font-size: 1.1rem; }
