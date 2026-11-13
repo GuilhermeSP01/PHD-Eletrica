@@ -292,3 +292,13 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
 .authorized-brands h4 { font-size: .72rem; margin: 0 0 .4rem; font-weight: 500; color: #62716a; }
 .services .authorized-brand-names { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .65rem; margin: 0; color: var(--accent-dark); font-size: 1rem; font-weight: 650; letter-spacing: -.015em; line-height: 1.7; }
 .authorized-brand-names > span { color: #a5bdb0; font-weight: 400; }
+
+/* Recorte do topo do embed: mantém o pin e a atribuição inferior visíveis. */
+.review-map { overflow: hidden; }
+.review-map iframe { position: absolute; top: -64px; height: calc(100% + 64px); }
+.map-gps-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; width: auto; height: 46px; right: 8px; bottom: 25px; padding-inline: 1rem; border-radius: 8px; font-size: .8rem; font-weight: 600; text-decoration: none; }
+.map-gps-button svg { flex-shrink: 0; }
+@media (max-width: 700px) {
+  .map-gps-button { height: 38px; right: 6px; bottom: 26px; padding-inline: .65rem; gap: .35rem; font-size: .64rem; }
+  .map-gps-button svg { width: 13px; height: 13px; }
+}
