@@ -134,7 +134,7 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
   .brands-controls { margin-left: auto; }
 }
 
-/* Avaliações: conteúdo ilustrativo até a consolidação dos depoimentos reais. */
+/* Avaliações de clientes */
 .reviews-section { padding-block: 5rem; background: #f4f8f6; border-block: 1px solid var(--border); }
 .reviews-heading { display: flex; align-items: center; justify-content: space-between; gap: 3rem; }
 .reviews-heading h2 { margin: 1rem 0 0; }
@@ -271,6 +271,7 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
 .review-card:nth-child(1) { --review-index: 0; }
 .review-card:nth-child(2) { --review-index: 1; }
 .review-card:nth-child(3) { --review-index: 2; }
+.review-card:nth-child(4) { --review-index: 3; }
 .reviews-viewport::before, .reviews-viewport::after { content: ''; position: absolute; z-index: 4; top: 0; bottom: 0; width: 32px; opacity: 0; pointer-events: none; }
 .reviews-viewport::before { left: 0; background: linear-gradient(90deg, #f4f8f6, #f4f8f600); }
 .reviews-viewport::after { right: 0; background: linear-gradient(270deg, #f4f8f6, #f4f8f600); }
