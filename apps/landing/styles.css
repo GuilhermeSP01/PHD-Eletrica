@@ -307,3 +307,19 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
 .contact-phone a, .contact-secondary-phone a, .contact-email a { text-decoration: none; }
 .contact-phone a:hover, .contact-secondary-phone a:hover, .contact-email a:hover { text-decoration: underline; }
 .contact-detail .contact-secondary-phone { margin-top: .4rem; font-size: 1.1rem; }
+
+/* Menu mobile: navegação compartilhada com o desktop. */
+.menu-toggle { display: none; }
+.menu-close { display: none; }
+@media (max-width: 700px) {
+  .header { z-index: 10; }
+  .menu-toggle:not([hidden]) { display: inline-grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 10px; background: transparent; color: var(--accent-dark); cursor: pointer; }
+  .menu-open .menu-lines { display: none; }
+  .menu-open .menu-close { display: block; }
+  .header.menu-open .header-nav { display: flex; position: absolute; top: calc(100% - 8px); right: 0; left: 0; flex-direction: column; align-items: stretch; gap: .2rem; padding: .7rem; border: 1px solid var(--border); border-radius: 12px; background: white; box-shadow: 0 14px 36px #233d3614; }
+  .header.menu-open .header-nav a { min-height: 44px; padding: .7rem .85rem; border: 0; border-radius: 6px; }
+  .header.menu-open .header-nav a::after { display: none; }
+  .header.menu-open .header-nav a:hover { background: #f4f8f6; }
+  .header:not(.menu-ready) { flex-wrap: wrap; }
+  .header:not(.menu-ready) .header-nav { display: flex; flex-basis: 100%; flex-wrap: wrap; gap: 1rem; }
+}
