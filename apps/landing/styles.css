@@ -20,7 +20,7 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outlin
 .hero { position: relative; isolation: isolate; overflow: hidden; background: #fff; }
 .hero-inner { min-height: 730px; display: flex; align-items: center; padding-block: 4rem 5rem; }
 .hero-copy { position: relative; width: 62%; max-width: 700px; }
-.hero-art { position: absolute; z-index: -1; pointer-events: none; width: clamp(800px, 77vw, 1220px); aspect-ratio: 1; right: -24vw; top: 49%; transform: translateY(-50%); background: url('./assets/phd-eletrica-instagram.jpg') center / contain no-repeat; opacity: .72; mix-blend-mode: multiply; mask-image: linear-gradient(to bottom, transparent 0%, #000 20%, #000 100%); }
+.hero-art { position: absolute; z-index: -1; pointer-events: none; width: clamp(800px, 77vw, 1220px); aspect-ratio: 1; right: -24vw; top: 49%; transform: translateY(-50%); background: url('./assets/logo.png') center / contain no-repeat; opacity: .72; mix-blend-mode: multiply; mask-image: linear-gradient(to bottom, transparent 0%, #000 20%, #000 100%); }
 .hero::after { content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(to bottom, white, #ffffff00 160px), linear-gradient(90deg, white 0%, white 35%, #ffffffde 47%, #ffffff00 68%); }
 h1 { font-size: clamp(3.2rem, 5.15vw, 4.8rem); font-weight: 650; line-height: 1.09; letter-spacing: -.06em; margin-block: 1.5rem; }
 h1 span { color: var(--accent-dark); }
