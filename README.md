@@ -20,3 +20,9 @@ A raiz de publicação da página é `apps/landing/`. CSS, JavaScript e imagens 
 A Hero apresenta projetos, instalações e manutenção elétrica na Baixada Santista. As demais seções ainda estão em planejamento. O CTA do WhatsApp utiliza o número (11) 99478-1399.
 
 A fonte Manrope é servida localmente em `apps/landing/assets/fonts/`, com sua licença OFL.
+
+## Deploy no GitHub Pages
+
+No GitHub, configure **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+
+O workflow `.github/workflows/pages.yml` publica `apps/landing/` a cada push na `main`. Também pode ser executado manualmente em **Actions → Deploy landing to GitHub Pages → Run workflow**. O endereço publicado aparece no ambiente `github-pages` e em **Settings → Pages**.
