@@ -227,23 +227,6 @@ h3 { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; }
 .contact-copy .contact-intro { margin-bottom: .9rem; }
 .contact-copy .contact-region { margin: 0 0 1.75rem; }
 
-/* Trabalhos nas redes sociais */
-.work-social { max-width: 820px; margin: 3.5rem auto 0; padding-top: 2rem; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
-.work-social h3 { margin: 0 0 .6rem; font-size: 1.15rem; letter-spacing: -.035em; }
-.work-social p { margin: 0; max-width: 35ch; font-size: .88rem; line-height: 1.8; color: #53675d; }
-.work-social-actions { display: flex; gap: .75rem; flex-shrink: 0; }
-.social-button { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; padding: .85rem 1.1rem; border-radius: 999px; color: var(--accent-dark); border: 1px solid #cbdcd1; background: #f4f8f6; font-size: .8rem; font-weight: 650; text-decoration: none; transition: transform .2s ease; }
-.social-button:hover { transform: translateY(-2px); background: #e7f1eb; border-color: var(--accent); }
-.social-button svg { flex-shrink: 0; }
-.social-arrow { margin-left: .25rem; }
-@media (max-width: 1000px) { .work-social { align-items: flex-start; flex-direction: column; gap: 1.5rem; } }
-@media (max-width: 700px) {
-  .work-social { margin-top: 2.75rem; }
-  .work-social-actions { flex-direction: column; width: 100%; gap: .75rem; }
-  .social-button { min-height: 50px; padding-inline: 1.25rem; }
-}
-@media (prefers-reduced-motion: reduce) { .social-button { transition: none; } }
-
 /* Depoimentos em faixa horizontal com empilhamento progressivo. */
 .reviews-navigation { justify-content: flex-end; margin-bottom: .75rem; }
 .reviews-viewport { position: relative; }
